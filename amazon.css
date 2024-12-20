@@ -1,0 +1,497 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color:lightblue; */
+    position: relative;
+}
+
+.nav {
+    height: 90px;
+    width: 100%;
+    background-color: #023e8a;
+    display: flex;
+    color: white;
+}
+
+.G1 {
+    height: 100%;
+    width: 12%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.G1 h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.G1 span {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.G2 {
+    height: 100%;
+    width: 16%;
+    /* background-color: lightcyan; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.G2 i {
+    font-size: 22px;
+}
+
+.contain p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contain h2 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 0.9;
+}
+
+.G3 {
+    height: 100%;
+    width: 39%;
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all {
+    height: 80%;
+    width: 20%;
+    /* background-color: darkcyan; */
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.box {
+    height: 80%;
+    width: 60%;
+    /* background-color: darkgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.box i {
+    font-size: 17px;
+    font-weight: 300;
+    background-color: rgb(207, 153, 52);
+}
+
+.all select {
+    font-size: 31px;
+    font-weight: 500;
+    padding-left: .9vw;
+}
+
+.box input {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.box i {
+    font-size: 34px;
+    font-weight: 600;
+    color: black;
+}
+
+.G4 {
+    height: 100%;
+    width: 8%;
+    /* background-color: lightpink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.G4 h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+G4 i {
+    font-size: 22px;
+    font-weight: 200;
+    color: gray;
+}
+
+.G5 {
+    height: 100%;
+    width: 11%;
+    /* background-color: lightsalmon; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.G5 p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.G5 h2 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: .9;
+}
+.G6 {
+    height: 100%;
+    width: 8%;
+    /* background-color: lightseagreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.G6 p {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.G6 h2 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: .9;
+}
+
+.G7 {
+    height: 100%;
+    width: 7%;
+    /* background-color: lightgoldenrodyellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.G7 i {
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.G7 h2 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.info {
+    height: 100vh;
+    width: 100%;
+    /* background-color: darkgreen; */
+    padding-top: 2vw;
+    display: flex;
+}
+
+.left {
+    height: 70vh;
+    width: 40%;
+    background-color: rgb(142, 196, 61);
+    margin-left: 1vw;
+    border-radius: 20px;
+    background-image: url(bottle.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.mid {
+    height: 100vh;
+    width: 33%;
+    /* background-color: lightcoral; */
+    margin-left: 1.6vw;
+    padding-left: 2vw;
+    padding-right: 1.4vw;
+    padding-top: 1vw;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ratings {
+    display: flex;
+    padding-top: .4vw;
+    border-bottom: 1px solid black;
+}
+
+.ratings h5 {
+    margin-left: .4vw;
+    margin-right: .4vw;
+    margin-top: .1vw;
+}
+.ratings i {
+    /* background-color: rgb(201, 107, 30); */
+    color: rgb(201, 107, 30);
+    /* margin-bottom: 1vw; */
+}
+
+.amount {
+    margin-top: 1vw;
+    border-bottom: 1px solid black;
+    padding-bottom: 1vw;
+}
+
+.amount h6 {
+    height: 3vh;
+    width: 5vw;
+    background-color: rgb(7, 7, 10);
+    font-size: 1vw;
+    padding-top: .2vw;
+    color: rgb(225, 198, 198);
+    font-weight: 200;
+}
+
+.amount h5 {
+    font-weight: 300;
+}
+
+.amount h6 {
+    margin-top: .5vw;
+}
+
+.offer-box {
+    height: 20vh;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.headline {
+   display: flex;
+}
+
+.headline h3 {
+    height: 4vh;
+    width: 2vw;
+    background-color: white;
+    color: orangered;
+    padding-left: .4vw;
+    margin-top: .2vw;
+    padding-top: .2vw;
+    border-radius: 50px;
+    border: 1px dotted black;
+    
+}
+
+.headline h4 {
+    margin-left: 1.8vw;
+    margin-top: .5vw;
+    font-weight: 600;
+}
+
+.boxes {
+    height: 25vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.offers {
+    height: fit-content;
+    width: 12vw;
+    /* background-color: lightsalmon; */
+    margin-top: 1vw;
+    padding: .8vw .8vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* border: 1px solid black; */
+    margin-left: 1vw;
+    border-radius: 10px;
+}
+.offers h4 {
+    margin-bottom: .5vw;
+    font-weight: 600;
+}
+
+.offers h6 {
+    font-size: .9vw;
+    font-weight: 500;
+    padding-top: .5vw;
+    padding-bottom: .3vw;
+}
+
+.offers h5 {
+    font-size: .9vw;
+    font-weight: 400;
+    color: rgb(29, 102, 29);
+    padding-top: 1vw;
+}
+
+
+.logo-box {
+    height: 10vh;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+}
+
+.icons {
+    height: 100%;
+    width: 18%;
+    /* background-color: lightpink; */
+    padding: .3vw;
+    border-bottom: 2px solid black;
+
+}
+.logo {
+    font-size: 1.6vw;
+    padding-bottom: .3vw;
+    padding-left: .5vw;
+    color: rgb(165, 90, 10);
+}
+
+.right {
+    height: 80%;
+    width: 27%;
+    /* background-color: darkcyan; */
+    margin-top: 1vw;
+    padding-left: 1.4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: 1px solid rgb(89, 87, 87);
+}
+
+.right h1 {
+    height: 3vh;
+    width: 5vw;
+    background-color: rgb(7, 7, 10);
+    font-size: 1vw;
+    padding-top: .2vw;
+    color: rgb(225, 198, 198);
+    font-weight: 200;
+}
+
+.right h4 {
+    font-size: 1vw;
+    font-weight: 300;
+    letter-spacing: .01px;
+    line-height: 1.4vw;  
+}
+
+.para {
+    margin-top: 1.4vw;
+    margin-bottom: .8vw;
+    /* font-weight: 400; */
+}
+
+.para h4 {
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.location {
+    display: flex;
+}
+.location i {
+    margin-right: .4vw;
+    padding-top: .4vw;
+}
+.location h5 {
+    font-size: 1.1vw;
+}
+
+.right h2 {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    /* font-weight: 500; */
+}
+
+.right h5 {
+    margin-top: .3vw;
+    font-size: .9vw; 
+    font-weight: 500;
+}
+
+.right h5 span {
+    padding-left: 3vw;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 2vw;
+}
+
+button {
+    height: 5vh;
+    width: 18vw;
+    /* background-color: lightcoral; */
+    margin-top: 1vw;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.1vw;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.transaction {
+    margin-top: 1vw;
+    margin-bottom: .4vw;   
+}
+
+.transaction h5 {
+    font-size: 1.1vw;
+    color: rgb(79, 210, 217);
+}
+
+.transaction i {
+    padding-right: .7vw;
+    font-size: 1.4vw;
+}
+
+.gift {
+    display: flex;
+    width: 100%;
+}
+
+.gift i {
+    padding-top: .4vw;
+
+}
+
+.gift h5 {
+    width: 90%;
+    font-size: 1.1vw;
+    padding-left: .6vw;
+    border-bottom: 2px solid rgb(76, 73, 73);
+   
+}
+
+.right input {
+    height: 4vh;
+    width: 20vw;
+    margin-top: 1vw;
+    border-radius: 9px;
+    border: none;
+    padding-left: 1vw;
+    border: 1.2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.upload {
+    font-size: 1.5vw;
+    position: absolute;
+    top: 9vw;
+    left: 40.4vw;
+}
